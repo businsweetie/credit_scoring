@@ -22,13 +22,20 @@ The data set contains information about 205296 clients and 17 attributes, 5 quan
 17. Dependent variable the presence of default in the client: 0, 1.
 
 ## Content
-[Primary data analysis]()
-[]()
-[]()
-[]()
-[]()
-[]()
-[]()
-[]()
+[Primary data analysis](#primary_data_analysis)   
+[Identification of dependencies between features](#dependencies)    
+[]()  
+[]()  
+[]()  
+[]()  
+[]()  
+[]()  
 
-< a="">Primary data analysis</a>
+<a name="primary_data_analysis"><h2>Primary data analysis</h2></a>
+After the initial data analysis, the date of application was removed, duplicates were removed. Omissions were found in the attribute containing information about the level of education and their replacement was made with the most frequently repeated value.
+
+For the **"number of rejected applications"** attribute, an information content check was carried out. A feature is considered uninformative if there are most rows with the same values in the feature, which means that it does not carry useful information for the project. The selected feature turned out to be 82% uninformative, therefore it can be excluded.
+
+Based on the initial analysis, outliers were detected in some features (measurements that stand out from the general sample), which were subsequently removed.
+
+<a name="dependencies"><h2>Identification of dependencies between features</h2></a>
