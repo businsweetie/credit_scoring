@@ -39,3 +39,4 @@ For the **"number of rejected applications"** attribute, an information content 
 Based on the initial analysis, outliers were detected in some features (measurements that stand out from the general sample), which were subsequently removed.
 
 <a name="dependencies"><h2>Identification of dependencies between features</h2></a>
+To better determine which features affect the probability of a client's default, it is necessary to consider the relationship between the target feature and the other features. Based on the graphical representation of dependencies, the features that have a greater impact on the value of the target feature were identified
